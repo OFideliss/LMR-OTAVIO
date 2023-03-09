@@ -57,6 +57,39 @@ body {
 }
 
 .login {
-    margin-top:300px;
+    margin-top: 150px;
+    text-align: center;
+}
+/* Contato */
+
+#Contato {
+    background: rgb(0, 19, 36);
+    background: linear-gradient(90deg, rgba(0, 19, 36, 1) 0%, rgba(68, 75, 179, 1) 0%);
+    margin-top: 250px;
+    margin-left: 700px;
+}
+
+#Enviar {
+    margin-left: 497px;
+    columns: azure;
+}
+
+#NomeContato {
+    margin-left: 100px;
+    background: rgb(0, 19, 36);
+    background: linear-gradient(90deg, rgba(0, 19, 36, 1) 0%, rgba(68, 75, 179, 1) 0%);
+}
+
+#EmailContato {
+    margin-left: 100px;
+    background: rgb(0, 19, 36);
+    background: linear-gradient(90deg, rgba(0, 19, 36, 1) 0%, rgba(68, 75, 179, 1) 0%);
+}
+
+#MensagemContato {
+    background: rgb(0, 19, 36);
+    background: linear-gradient(90deg, rgba(0, 19, 36, 1) 0%, rgba(68, 75, 179, 1) 0%);
+}
+#EnvieMensagem{
     text-align: center;
 }
