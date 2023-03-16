@@ -27,7 +27,7 @@ body {
 
 .parte1 {
     width: 100%;
-    height: 800pix;
+    height: 800px;
     text-align: center;
     margin-top: 90px;
 }
@@ -52,14 +52,23 @@ body {
 
 
 #Login {
+    /* ID do Body do arquivo login.html */
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(28, 40, 133, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
 
 .login {
-    margin-top: 150px;
+    margin-left: auto; /* Centralizar na pagina */
+    margin-right: auto;
     text-align: center;
 }
+
+#ImagemPerfil {
+    margin-left: auto; /* Centralizar na pagina */
+    margin-right: auto;
+    margin: auto;
+}
+
 /* Contato */
 
 #Contato {
@@ -90,6 +99,11 @@ body {
     background: rgb(0, 19, 36);
     background: linear-gradient(90deg, rgba(0, 19, 36, 1) 0%, rgba(68, 75, 179, 1) 0%);
 }
-#EnvieMensagem{
+
+#EnvieMensagem {
     text-align: center;
 }
+
+
+/* DICA: EVITAR USAR ID. USAR MAIS A TAG CLASS="" PARA A ESTILIZAÇÃO */
+/* ID = #Algo Classe = .Algo*/

@@ -1,0 +1,30 @@
+.Menu {
+    width: 100%;
+    height: 60px;
+    background-color: red;
+}
+
+.Logo {
+    height: 60px;
+}
+
+.LinkMenu {
+    color: white;
+    font-size: 2em;
+    margin-left: 60px;
+    margin-right: 60px;
+    float: right;
+    margin-top: 10px;
+}
+
+.Texto {
+    background-image: url("img/PlanoFundo2.jpg");
+    width: 100%;
+    height: 500px;
+    color: white;
+}
+
+.Texto h1 {
+    color: white;
+    font-size: 3em;
+}
