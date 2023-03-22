@@ -1,0 +1,66 @@
+body{   /* TAG, não precisa nem de . nem de # */
+background-color: black; /* Cor do fundo preto*/
+margin: 0; /* Distencia do body ate a margem */
+}
+.nav { /* Classe precisa de . */
+    background-color: aliceblue; /* Cor do fundo do menu */
+    width: 100%;
+    height: 80px;
+    display: flex; /*Tipo de posicionamento dos elementos // para o (lign-items) funcionar é preiso declarar o display */
+    justify-content: space-between; /* Espaço entre eles // space-between separar os elementos com o mesmo espaço sem contar as bordas // space-around separa os elementos com o mesmo espaço com a borda*/
+    align-items: center; /*Alinha intens no centro*/
+}
+.nav img {  /* Todas as TAG img dentro da classe nav */
+height: 70px;
+}
+.nav .linkMenu { /* Todas classes linkMenu dentro da classe nav*/
+text-decoration: none; /*Remove linha em baixo do link*/
+font-size: 24px; /* Fonte do texto */
+color: black; /* Cor do texto*/
+}
+.nav .menu {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.nav .mHamburguer {
+    display: none; /* Ocultar a classe mHamburguer*/
+}
+
+.container {
+    background-color: antiquewhite;
+    height: 50vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: none; /* Ocultar container*/
+}
+
+.container .Cima {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .Baixo {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .blue {
+    background-color: blue;
+    width: 23%;
+    height: 23vh;
+}
+.container .red {
+    background-color: red;
+    width: 23%;
+    height: 23vh;
+}
+
+
