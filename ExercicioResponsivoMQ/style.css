@@ -17,14 +17,27 @@
     margin-top: 10px;
 }
 
-.Texto {
+.Texto1 {
     background-image: url("img/PlanoFundo2.jpg");
     width: 100%;
     height: 500px;
     color: white;
 }
 
-.Texto h1 {
+.Texto1 h1 {
     color: white;
     font-size: 3em;
+}
+
+.Texto2 img {
+    width: 60%;
+    height: 500px;
+}
+
+.Texto2 h1 {
+    float: right;
+}
+.Texto2 p {
+    float: right;
+    width: 50%;
 }
