@@ -1,0 +1,46 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+
+.corpo {
+    justify-content: first baseline;
+    align-items: stretch;
+}
+
+.cima {
+    display: flex;
+    justify-content: space-between;
+}
+
+.baixo {
+    display: flex;
+    justify-content: space-between;
+    align-content: stretch;
+    margin-top: 32%;
+}
+
+.vermelho {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+
+}
+
+.amarelo {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+
+.verde {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+
+.azul {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+}
+
+.fundo1 {
+    background-color: DarkSeaGreen;
+    width: 100%;
+}
+
+.parte1 h3 {
+    background-color: BurlyWood;
+    height: 40px;
+    width: 20%;
+    margin: 0;
+    margin-left: 40%;
+    margin-right: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fundo2 {
+    background-color: LightSkyBlue;
+    width: 100%;
+    height: 40px;
+}
+
+.parte2 h3 {
+    background-color: MediumOrchid;
+    height: 40px;
+    width: 20%;
+    margin: 0;
+    margin-left: 40%;
+    margin-right: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fundo3 {
+    background-color: rgb(24, 24, 220);
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    justify-items: center;
+}
+
+.parte3 h2 {
+    background-color: DarkGreen;
+    height: 40px;
+    width: 20%;
+    margin: 0;
+    margin-left: 40%;
+    margin-right: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fundo4 {
+    background-color: LightPink;
+    width: 100%;
+    height: 100px;
+}
+
+.parte4 h3 {
+    background-color: SandyBrown;
+    height: 40px;
+    width: 40%;
+    margin: 0;
+    margin-left: 30%;
+    margin-right: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fundo5 {
+    background-color: LightPink;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    background-color: antiquewhite;
+    height: 50vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.container .cima {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .baixo {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.cor1 {
+    background-color: rgb(230, 152, 58);
+    width: 23%;
+    height: 23vh;
+}
+
+.cor2 {
+    background-color: rgb(47, 186, 152);
+    width: 23%;
+    height: 23vh;
+}
+
+.cor3 {
+    background-color: rgb(32, 123, 188);
+    width: 23%;
+    height: 23vh;
+}
+
+.cor4 {
+    background-color: rgb(160, 0, 181);
+    width: 23%;
+    height: 23vh;
+}
+
+.cor5 {
+    background-color: rgb(240, 57, 197);
+    width: 23%;
+    height: 23vh;
+}
+
+.cor6 {
+    background-color: red;
+    width: 23%;
+    height: 23vh;
+}
+
+.cor7 {
+    background-color: rgb(254, 254, 57);
+    width: 23%;
+    height: 23vh;
+}
+
+.cor8 {
+    background-color:  rgb(47, 186, 152);
+    width: 23%;
+    height: 23vh;
+}
