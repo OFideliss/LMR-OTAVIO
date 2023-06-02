@@ -10,7 +10,7 @@
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
 
-<body>
+<body  style="background-color: black;">
   <header>
     <nav class="navbar navbar-expand-lg bg-black" data-bs-theme="dark">
       <div class="container-fluid">
@@ -25,7 +25,7 @@
               <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="produtor.html">Produtor</a>
+              <a class="nav-link disabled" href="produtor.html">Produtor</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="login.html">Login</a>
@@ -51,7 +51,69 @@
       </div>
     </nav>
   </header>
-
+  <div style="margin-top: 1px; background-color: azure;"><br></div>
+  <br><br>
+  <section>
+  <form action="" id="Cadastro"   style="color: azure;" >
+    <div class="container" data-bs-theme="dark">
+        <div class="row">
+          <form onsubmit="Enviar()">
+            <div class="mb-3 col-3  offset-4">
+              <label for="nomeCompleto" class="form-label">Nome Completo</label>
+              <input type="text" class="form-control" id="nomeCompleto" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">
+                Preencher com seu nome completo</div>
+            </div>
+            <div class="mb-3 col-3  offset-4">
+                <label for="telefone" class="form-label">Telefone</label>
+                <input type="tel" class="form-control" id="telefone" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">
+                  Apenas números. Com DDD</div>
+              </div>
+            <div class="mb-3 col-3  offset-4">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">
+                  Nunca compartilharemos seu e-mail com mais ninguém.</div>
+              </div>
+              <div class="mb-3 col-3  offset-4">
+                <label for="confirmeEmail" class="form-label">Confirme seu Email</label>
+                <input type="email" class="form-control" id="confirmeEmail" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">
+                  Digite seu email novamente para confirmar</div>
+              </div>
+            <div class="mb-3 col-3  offset-4 ">
+              <label for="senha" class="form-label">Senha</label>
+              <input type="password" class="form-control" id="senha">
+            </div>
+            <div class="mb-3 col-3  offset-4 ">
+                <label for="confirmeSenha" class="form-label">Confirme sua Senha</label>
+                <input type="password" class="form-control" id="confirmeSenha">
+              </div>
+            <div class="mb-3 col-3  offset-4  form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Manter conectado</label>
+            </div>
+            <button type="submit" class="btn-primary mb-3 col-3  offset-4 bg-blue " value="Enviar" onclick="Enviar()">Enviar</button>
+          </form>
+        </div>
+      </div>
+</form>
+</section>
+<footer>
+  <br><br><br><br><br>
+  <div class="container" data-bs-theme="dark">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3 ">
+        <li class="nav-item " ><a href="index.html" class="nav-link px-2 text-body-secondary">Inicio</a></li>
+        <li class="nav-item"><a href="produtor.html" class="nav-link px-2 text-body-secondary disabled">Produtor</a></li>
+        <li class="nav-item"><a href="login.html" class="nav-link px-2 text-body-secondary">Login</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Sobre</a></li>
+      </ul>
+      <p class="text-center text-body-secondary">© 2023 Comapnhia</p>
+    </footer>
+  </div>
+</footer>
 </body>
 <script src="script.js"></script>
 <script src="bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.js"></script>
