@@ -37,11 +37,11 @@
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="musicaDanca.html">Música e Dança</a></li>
-                <li><a class="dropdown-item" href="teatroCinema.html">Teatro e Cinema</a></li>
+                <li><a class="dropdown-item disabled " href="teatroCinema.html">Teatro e Cinema</a></li>
                 <li><a class="dropdown-item" href="esportes.html">Esportes</a></li>
                 <li><a class="dropdown-item" href="lazerTurismo.html">Lazer e Turismo</a></li>
                 <li>
-              </ul> 
+              </ul>
           </ul>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Search">
@@ -53,46 +53,51 @@
   </header>
   <div style="margin-top: 1px; background-color: azure;"><br></div>
   <br><br><br><br><br><br><br><br>
-<section>
-  <div class="container"  data-bs-theme="dark">
-    <div class="row">
-      <form  style="color: azure;">
-        <div class="mb-3 col-3  offset-4">
-          <label for="exampleInputEmail1" class="form-label">Email</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text">
-            Nunca compartilharemos seu e-mail com mais ninguém.</div>
-        </div>
-        <div class="mb-3 col-3  offset-4 ">
-          <label for="exampleInputPassword1" class="form-label">Senha</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="mb-3 col-3  offset-4  form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Manter conectado</label>
-        </div>
-        <button type="submit" class="btn-primary mb-3 col-3  offset-4 bg-blue ">Entrar</button>
-        <br>
-        <a href="cadastro.html" class="btn-primary mb-3 col-3 offset-4 bg-blue">Cadastrar</a>
-      </form>
+  <section>
+    <div class="container" data-bs-theme="dark">
+      <div class="row">
+        <form style="color: azure;"  id="Login">
+          <div class="mb-3 col-3  offset-4">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">
+              Digite o seu email para entrar.</div>
+          </div>
+          <div class="mb-3 col-3  offset-4 ">
+            <label for="exampleInputPassword1" class="form-label">Senha</label>
+            <input type="password" class="form-control" id="senha">
+            <div id="emailHelp" class="form-text">
+              Digite a sua senha.</div>
+          </div>
+          <div class="mb-3 col-3  offset-4  form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Manter conectado</label>
+          </div>
+          <button type="submit" class="btn-primary mb-3 col-3  offset-4 bg-blue " value="Entrar"
+            onclick="Entrar()">Entrar</button>
+          <br>
+          <a href="cadastro.html" class="btn-primary mb-3 col-3 offset-4 bg-blue">Cadastrar</a>
+        </form>
+      </div>
     </div>
-  </div>
-</section>
-<footer>
-  <br><br><br><br><br>
-  <div class="container" data-bs-theme="dark">
-    <footer class="py-3 my-4">
-      <ul class="nav justify-content-center border-bottom pb-3 mb-3 ">
-        <li class="nav-item " ><a href="index.html" class="nav-link px-2 text-body-secondary">Inicio</a></li>
-        <li class="nav-item"><a href="produtor.html" class="nav-link px-2 text-body-secondary disabled">Produtor</a></li>
-        <li class="nav-item"><a href="login.html" class="nav-link px-2 text-body-secondary">Login</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Sobre</a></li>
-      </ul>
-      <p class="text-center text-body-secondary">© 2023 Comapnhia</p>
-    </footer>
-  </div>
-</footer>
+  </section>
+  <footer>
+    <br><br><br><br><br>
+    <div class="container" data-bs-theme="dark">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3 ">
+          <li class="nav-item "><a href="index.html" class="nav-link px-2 text-body-secondary">Inicio</a></li>
+          <li class="nav-item"><a href="produtor.html" class="nav-link px-2 text-body-secondary disabled">Produtor</a>
+          </li>
+          <li class="nav-item"><a href="login.html" class="nav-link px-2 text-body-secondary">Login</a></li>
+          <li class="nav-item"><a href="sobre.html" class="nav-link px-2 text-body-secondary">Sobre</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2023 Comapnhia</p>
+      </footer>
+    </div>
+  </footer>
 </body>
 <script src="script.js"></script>
 <script src="bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.js"></script>
+
 </html>
