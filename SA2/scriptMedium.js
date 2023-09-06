@@ -24,7 +24,3 @@ function trocar() {
 }
 
 setTimeout(trocar, 0); // Inicia a função, o tempo de 0 segundos significa que a function ira rodar imediatamente sem atrasos 
-//
-//
-//
-//

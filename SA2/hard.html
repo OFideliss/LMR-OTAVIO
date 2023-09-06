@@ -44,9 +44,9 @@
     </div>
   </nav>
   <!--  -->
-  <!-- =======================================================Section Semafaro======================================================= -->
+  <!-- =======================================================Section Game======================================================= -->
   <!--  -->
-  <section style="margin-top: -250px;">
+  <section style="margin-top: -250px;" id="Game">
     <div class="container">
       <div class="row justify-content-center align-items-center" style="height: 100vh;">
         <!-- Primeiro Card -->
@@ -92,12 +92,52 @@
         </div>
       </div>
     </div>
-    <!-- =======================================================Selecionada======================================================= -->
-    <p id="selecaoTexto" class="text-center mx-auto"></p>
-    <!-- =======================================================Botão Confirmar Seleção======================================================= -->
-    <div class="container  d-flex justify-content-center align-items-center">
-      <button class="btn btn-primary " onclick="confirmarEscolha()" id="ConfSelec" disabled>Confirmar Seleção</button>
+  </section>
+  <!--  -->
+  <!-- =======================================================Section Resultado======================================================= -->
+  <!--  -->
+  <section id="Resultado" style="display: none;">
+    <div class="container">
+      <div class="row justify-content-center align-items-center" style="height: 100vh;">
+        <!-- Primeiro Card -->
+        <div class="col-md-4">
+          <div class="card corFundo" style="background-color: transparent; text-align: center;">
+            <div style="display: flex; justify-content: center;">
+              <img id="imagem1" src="" class="card-img-top" alt="..." style="width: 100px;">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center;">Usuário</h5>
+              <p class="card-text"></p>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Segundo Card -->
+        <div class="col-md-4">
+          <div class="card corFundo" style="background-color: transparent; text-align: center;">
+            <div style="display: flex; justify-content: center;">
+              <img id="imagem2" src="" class="card-img-top" alt="..." style="width: 100px;">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center;">Computador</h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
+
+  <!--  -->
+  <!-- ============================================================================================================================ == -->
+  <!--  -->
+  <!-- =======================================================Selecionada======================================================= -->
+  <p id="selecaoTexto" class="text-center mx-auto"></p>
+  <!-- =======================================================Botão Confirmar Seleção======================================================= -->
+  <div class="container  d-flex justify-content-center align-items-center">
+    <button class="btn btn-primary " onclick="mostrarResultado()" id="ConfSelec" disabled>Confirmar Seleção</button>
+  </div>
   </section>
   <!--  -->
   <!-- ============================================================================================================================ == -->
